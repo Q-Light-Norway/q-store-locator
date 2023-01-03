@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Store Locator Example</title>
+    <link rel="stylesheet" href="https://storage.googleapis.com/crisp-store-locator/0.5.8/dist/store-locator.css"/>
+    <style>
+        #map-container {
+            height: 60vh !important;
+            position: relative;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+
+        .map_search-box-card  label {
+            background: #616161;
+        }
+    </style>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            window.storeLocator.createStoreLocatorMap({
+                container: document.getElementById("map-container"),
+                // Replace with the URL from the GeoJSON Outbound Connector
+                geoJson: "stores.json",
+                mapOptions: {center: {lat: 59.0149779013203, lng: 7.690452172606003}, zoom: 7},
+                formatLogoPath: function (feature) {
+                    return feature.getProperty('logo');
+                },
+                searchBoxOptions: {
+                    autocompleteOptions: {
+                        componentRestrictions: {country: 'no'},
+                    },
+                },
+                storeListOptions: {
+                    filterFn: function (_, i) {
+                        return i < 12;
+                    },
+                    unitSystem: 'metric',
+                },
+            });
+        });
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiWFlk73_9aHPXJcW603pSbbTgIwpsV9k&libraries=geometry,places"></script>
+    <script src="https://storage.googleapis.com/crisp-store-locator/0.5.8/dist/store-locator.umd.js"></script>
+</head>
+<body>
+        <div id="map-container"></div>
+</body>
+</html>
+

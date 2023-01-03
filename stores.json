@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "geometry": {
+      "type": "Point",
+      "coordinates": [8.028158056286253, 58.157095739253506]
+    },
+    "type": "Feature",
+    "properties": {
+      "store": "Ahlsell",
+      "storeFullAddress": "Fiskåveien 4, 4621 Kristiansand, NO",
+       "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+    }
+  },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.028158056286253, 58.157095739253506]
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Q-Light",
+        "storeFullAddress": "Kongsgård Allé 62, 4632 Kristiansand",
+        "logo": "https://www.qlight.no/media/k3jfa0nq/logo_qlight_coolgrey_solid.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.137226070647152, 58.177800457517115]
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Elektroimportoren",
+        "storeFullAddress": "Avenyen 23, 4636 Kristiansand, NO",
+        "logo": "https://picture.elektroimportoren.no/images/logo-n1.svg"
+      }
+    }
+  ]
+}
