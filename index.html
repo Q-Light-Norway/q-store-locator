@@ -24,12 +24,16 @@
                 // Replace with the URL from the GeoJSON Outbound Connector
                 geoJson: "stores.json",
                 mapOptions: {center: {lat: 59.0149779013203, lng: 7.690452172606003}, zoom: 7},
-                formatLogoPath: function (feature) {
-                    return feature.getProperty('logo');
+                formatLogoPath: function (store) {
+                    return store.getProperty('logo');
                 },
                 searchBoxOptions: {
                     autocompleteOptions: {
                         componentRestrictions: {country: 'no'},
+                    },
+                    originMarkerOptions: {
+                        visible: false, // this gets set to "true" on search
+                        icon: 'https://maps.google.com/mapfiles/ms/icons/blue.png',
                     },
                 },
                 storeListOptions: {
