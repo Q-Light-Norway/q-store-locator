@@ -5,17 +5,56 @@
     <title>Store Locator Example</title>
     <link rel="stylesheet" href="https://storage.googleapis.com/crisp-store-locator/0.5.8/dist/store-locator.css"/>
     <style>
+
         #map-container {
             height: 60vh !important;
             position: relative;
             left: 0;
             right: 0;
             margin: 0 auto;
+
         }
 
         .map_search-box-card  label {
             background: #616161;
+            font-family: "Lato",sans-serif;
         }
+
+        .map_store-list-panel  * {
+            font-family: "Lato",sans-serif;
+            color: #53565a;
+        }
+
+        .map_store-list-panel h2 {
+            font-size: 1.5rem;
+        }
+
+        .map_store-list-panel li button {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .map_store-list-panel .map_banner {
+            font-size: 1.3em;
+        }
+
+        .map_store-list-panel .map_distance {
+            font-size: 1em;
+        }
+
+        .map_store-list-panel .map_address {
+            font-size: 0.8em;
+            margin-bottom: 0;
+        }
+
+        .map_store-list-panel .map_logo {
+            max-width: 50px;
+            max-height: 50px;
+            position: absolute;
+            top: 20px;
+            right: 10px;
+        }
+
     </style>
     <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function () {
