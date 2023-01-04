@@ -1,40 +1,274 @@
 {
   "type": "FeatureCollection",
-  "features": [{
-    "geometry": {
-      "type": "Point",
-      "coordinates": [7.964151955818906, 58.127122980493986]
-    },
-    "type": "Feature",
-    "properties": {
-      "store": "Ahlsell",
-      "storeFullAddress": "Fiskåveien 4, 4621 Kristiansand, NO",
-       "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
-    }
-  },
+  "features": [
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [8.028158056286253, 58.157095739253506]
+        "coordinates": [10.675871221475076, 59.92499701910147]
       },
       "type": "Feature",
       "properties": {
-        "store": "Q-Light",
-        "storeFullAddress": "Kongsgård Allé 62, 4632 Kristiansand",
-        "logo": "https://www.qlight.no/media/k3jfa0nq/logo_qlight_coolgrey_solid.svg"
+        "store": "Ahlsell",
+        "storeFullAddress": "Hoffsveien 11, 0275 Oslo",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
       }
     },
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [8.137226070647152, 58.177800457517115]
+        "coordinates": [10.833722700717976, 59.935774454107126]
       },
       "type": "Feature",
       "properties": {
-        "store": "Elektroimportoren",
-        "storeFullAddress": "Avenyen 23, 4636 Kristiansand, NO",
-        "logo": "https://picture.elektroimportoren.no/images/logo-n1.svg"
+        "store": "Ahlsell",
+        "storeFullAddress": "Alf Bjerckes Vei 22 0582 Oslo",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.805339160754574, 59.911356642722325]
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Surstoffveien 5 0661 Oslo",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.498003001372354, 59.906509377278056]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Baker Østbys vei 21 1351 Rud",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.797552297893624, 59.71918236180552]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Nordbyveien 96 1406 Ski",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.688881709806106, 59.41495803291002]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Kvaenveien 4 1529 Moss",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.97346742654427, 59.24001116840966]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Rolvsøyveien 203 1617 Fredrikstad ",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.007523798993963, 59.98112291597023]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Jogstadveien 25 2007 Kjeller",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.148479895172137, 60.079187289063206]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Kongsvingervegen 37 2040 Kløfta",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.0442416625075, 60.841730939163554]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Gjerluvegen 10 2320 Furnes",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.671747370910714, 60.78432186747188]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Kallerudlia 11 2816 Gjøvik",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.436312669404877, 59.27917119665787]
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Solkilen 23 3117 Tønsberg",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.10927689157426, 59.11237917675979]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Ringdalskogen 30 3270 Larvik",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.241162109847604, 59.74533027242243]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Nøstestranda 3414 Lierstranda Drammen",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.255168540757788, 60.1523844947661]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Dronning Åstas gate 4 3511 Hønefoss",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.629628991536023, 59.130895620823374]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Hydroveien 19 3933 Porsgrunn",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.728772917614716, 58.94371398970457]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Auglendsmyrå 1 4016 Stavanger",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.708077623155651, 58.859462968004635]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Sandnesveien 356 4312 Sandnes",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.964151955818906, 58.127122980493986]
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Fiskåveien 4, 4621 Kristiansand",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.71257351159444, 58.45924664156365]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Stoaveien 1 4848 Arendal",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.3424185940138935, 60.37143791066735]
+
+      },
+      "type": "Feature",
+      "properties": {
+        "store": "Ahlsell",
+        "storeFullAddress": "Fabrikkgaten 3-5 5059 Bergen",
+        "logo": "https://www.ahlsell.no/globalassets/site-images/logo_ahlsell.svg"
       }
     }
   ]
 }
+
