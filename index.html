@@ -26,6 +26,10 @@
             font-weight: 600;
         }
 
+        .map_store-list-panel {
+            margin: 0;
+        }
+
         .map_store-list-panel  * {
             font-family: "Lato",sans-serif;
             color: #53565a;
@@ -38,6 +42,7 @@
         .map_store-list-panel li button {
             display: flex;
             flex-direction: column;
+            align-items: flex-start;
         }
 
         .map_store-list-panel .map_banner {
@@ -63,6 +68,10 @@
 
         .article-page section {
             padding: 0;
+        }
+
+        .map_search-box-card {
+            width: auto;
         }
 
     </style>
@@ -100,5 +109,16 @@
 </head>
 <body>
         <div id="map-container"></div>
+<script>
+    setTimeout(function () {
+        document.querySelector(".map_search-box-card").getElementsByTagName("label")[0].innerText = "Finn din butikk";
+        document.querySelector(".map_search-box-card").getElementsByTagName("input")[0].placeholder = "Søk etter addresse";
+    }, 500);
+
+
+    const storeList = document.querySelector("#map_store-list-panel");
+    console.log(storeList);
+
+</script>
 </body>
 </html>
