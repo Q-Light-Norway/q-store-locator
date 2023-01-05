@@ -137,7 +137,6 @@
         const callback = (mutationList, observer) => {
           for (const mutation of mutationList) {
             if (mutation.target.children) {
-              console.log(mutation);
               document.querySelector("#store-list-header").innerText =
                 "Butikker i nærheten";
             }
