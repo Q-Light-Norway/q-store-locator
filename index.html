@@ -117,11 +117,37 @@
         });
       });
     </script>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiWFlk73_9aHPXJcW603pSbbTgIwpsV9k&libraries=geometry,places"></script> -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChWFC-5FnKYZVhxV5M5CCIqZbNKqFJbUc&libraries=geometry,places"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiWFlk73_9aHPXJcW603pSbbTgIwpsV9k&libraries=geometry,places"></script>
     <script src="https://storage.googleapis.com/crisp-store-locator/0.5.8/dist/store-locator.umd.js"></script>
   </head>
   <body>
     <div id="map-container"></div>
+    <script>
+      setTimeout(function () {
+        document
+          .querySelector(".map_search-box-card")
+          .getElementsByTagName("label")[0].innerText = "Finn din butikk";
+        document
+          .querySelector(".map_search-box-card")
+          .getElementsByTagName("input")[0].placeholder = "Søk etter addresse";
+
+        const targetNode = document.getElementById("map_store-list");
+        const config = { attributes: true, childList: true, subtree: true };
+
+        const callback = (mutationList, observer) => {
+          for (const mutation of mutationList) {
+            if (mutation.target.children) {
+              console.log(mutation);
+              document.querySelector("#store-list-header").innerText =
+                "Butikker i nærheten";
+            }
+            observer.disconnect();
+          }
+        };
+
+        const observer = new MutationObserver(callback);
+        observer.observe(targetNode, config);
+      }, 500);
+    </script>
   </body>
 </html>
