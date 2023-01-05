@@ -88,7 +88,8 @@
         window.storeLocator.createStoreLocatorMap({
           container: document.getElementById("map-container"),
           // Replace with the URL from the GeoJSON Outbound Connector
-          geoJson: "stores.json",
+          geoJson:
+            "https://raw.githubusercontent.com/Q-Light-Norway/q-store-locator/main/stores.json",
           mapOptions: { center: { lat: 64, lng: 7.6 }, zoom: 5 },
           formatLogoPath: function (store) {
             return store.getProperty("logo");
