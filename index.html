@@ -142,27 +142,31 @@
     </div>
     <p> </p>
     <script>
-      const targetNode = document.getElementById("map-container");
-      const config = { attributes: true, childList: true, subtree: true };
+      try {
+        const targetNode = document.getElementById("map-container");
+        const config = { attributes: true, childList: true, subtree: true };
 
-      const callback = (mutationList, observer) => {
-        for (const mutation of mutationList) {
-          document
-            .querySelector(".map_search-box-card")
-            .getElementsByTagName("label")[0].innerText = "Finn din butikk";
-          document
-            .querySelector(".map_search-box-card")
-            .getElementsByTagName("input")[0].placeholder =
-            "Søk etter addresse";
+        const callback = (mutationList, observer) => {
+          for (const mutation of mutationList) {
+            document
+              .querySelector(".map_search-box-card")
+              .getElementsByTagName("label")[0].innerText = "Finn din butikk";
+            document
+              .querySelector(".map_search-box-card")
+              .getElementsByTagName("input")[0].placeholder =
+              "Søk etter addresse";
 
-          document.querySelector("#store-list-header").innerText =
-            "Butikker i nærheten";
-          observer.disconnect();
-        }
-      };
+            document.querySelector("#store-list-header").innerText =
+              "Butikker i nærheten";
+            observer.disconnect();
+          }
+        };
 
-      const observer = new MutationObserver(callback);
-      observer.observe(targetNode, config);
+        const observer = new MutationObserver(callback);
+        observer.observe(targetNode, config);
+      } catch (error) {
+        console.error(error);
+      }
     </script>
   </body>
 </html>
