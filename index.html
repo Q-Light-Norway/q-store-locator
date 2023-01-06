@@ -9,7 +9,7 @@
     />
     <style>
       #map-container {
-        height: 60vh !important;
+        height: 100% !important;
         position: relative;
         left: 0;
         right: 0;
@@ -78,6 +78,16 @@
       .map_infowindow_content {
         width: auto;
       }
+
+      @media screen and (max-width: 601px) {
+        .flex-container {
+          flex-direction: column-reverse;
+        }
+
+        .flex-container > div {
+          width: 100%;
+        }
+      }
     </style>
     <script type="text/javascript">
       document.addEventListener("DOMContentLoaded", function () {
@@ -113,7 +123,24 @@
     <script src="https://storage.googleapis.com/crisp-store-locator/0.5.8/dist/store-locator.umd.js"></script>
   </head>
   <body>
-    <div id="map-container"></div>
+    <p> </p>
+    <div
+      class="flex-container"
+      style="height: 500px; display: flex; justify-content: space-between"
+    >
+      <div style="height: 500px; width: 40%">
+        <div class="umb-macro-holder mceNonEditable">
+          <!-- <?UMBRACO_MACRO macroAlias="StoreFinder" /> -->
+          <ins>
+            <div id="map-container"></div>
+          </ins>
+        </div>
+      </div>
+      <div style="height: 500px; width: 45%">
+        <h2 style="text-align: left">Finn din nærmeste forhandler</h2>
+      </div>
+    </div>
+    <p> </p>
     <script>
       const targetNode = document.getElementById("map-container");
       const config = { attributes: true, childList: true, subtree: true };
